@@ -49,6 +49,16 @@ Puede verificar controles más avanzados en varios motores de búsqueda en esto 
 
 Está familiarizado con los motores de búsqueda en Internet; sin embargo, ¿cuánto está familiarizado con los motores de búsqueda especializados? Con eso, nos referimos a los motores de búsqueda utilizados para encontrar tipos específicos de resultados.
 
-Shodan
+### Shodan
 Empecemos con Shodan, un motor de búsqueda para dispositivos conectados a Internet. Le permite buscar tipos y versiones específicas de servidores, equipos de red, sistemas de control industrial y IoT dispositivos. Es posible que desee ver cuántos servidores aún se están ejecutando Apache 2.4.1 y la distribución entre países. Para encontrar la respuesta, podemos buscar apache 2.4.1, que devolverá la lista de servidores con la cadena “apache 2.4.1” en sus encabezados.
 ![](../img/shodan.png)
+
+### Censys
+A primera vista, Censys parece similar a Shodan. Sin embargo, Shodan se enfoca en dispositivos y sistemas conectados a Internet, como servidores, enrutadores, cámaras web y IoT dispositivos. Censys, por otro lado, se centra en hosts conectados a Internet, sitios web, certificados y otros activos de Internet. Algunos de sus casos de uso incluyen enumerar dominios en uso, auditar puertos y servicios abiertos y descubrir activos deshonestos dentro de una red. Es posible que desee verificar Casos de Uso Introductorio de Censys.
+![](../img/censys.png)
+
+### VirusTotal
+VirusTotal es un sitio web en línea que proporciona un servicio de escaneo de virus para archivos que utilizan múltiples motores antivirus. Permite a los usuarios cargar archivos o proporcionar URL para escanearlos contra numerosos motores antivirus y escáneres de sitios web en una sola operación. Incluso pueden ingresar hashes de archivos para verificar los resultados de los archivos cargados anteriormente.
+
+La siguiente captura de pantalla muestra el resultado de verificar el archivo enviado contra 67 motores antivirus. Además, uno puede verificar los comentarios de la comunidad para obtener más información. Ocasionalmente, un archivo puede ser marcado como un virus o un troyano; sin embargo, esto podría no ser exacto por varias razones, y ahí es cuando los miembros de la comunidad pueden proporcionar una explicación más detallada.
+![](../img/virustotal.png)
