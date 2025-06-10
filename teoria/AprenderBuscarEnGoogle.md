@@ -62,3 +62,7 @@ VirusTotal es un sitio web en línea que proporciona un servicio de escaneo de v
 
 La siguiente captura de pantalla muestra el resultado de verificar el archivo enviado contra 67 motores antivirus. Además, uno puede verificar los comentarios de la comunidad para obtener más información. Ocasionalmente, un archivo puede ser marcado como un virus o un troyano; sin embargo, esto podría no ser exacto por varias razones, y ahí es cuando los miembros de la comunidad pueden proporcionar una explicación más detallada.
 ![](../img/virustotal.png)
+
+### Have I Been Pwned
+Have I Been Pwned (HIBP) does one thing; it tells you if an email address has appeared in a leaked data breach. Finding one’s email within leaked data indicates leaked private information and, more importantly, passwords. Many users use the same password across multiple platforms, if one platform is breached, their password on other platforms is also exposed. Indeed, passwords are usually stored in encrypted format; however, many passwords are not that complex and can be recovered using a variety of attacks.
+![](../img/ihave.png)
