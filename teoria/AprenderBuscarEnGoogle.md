@@ -47,4 +47,8 @@ Puede verificar controles más avanzados en varios motores de búsqueda en esto 
 
 ## 🔎 Motores de búsqueda especializados
 
-![Texto alternativo](../img/shodan.png)
+Está familiarizado con los motores de búsqueda en Internet; sin embargo, ¿cuánto está familiarizado con los motores de búsqueda especializados? Con eso, nos referimos a los motores de búsqueda utilizados para encontrar tipos específicos de resultados.
+
+Shodan
+Empecemos con Shodan, un motor de búsqueda para dispositivos conectados a Internet. Le permite buscar tipos y versiones específicas de servidores, equipos de red, sistemas de control industrial y IoT dispositivos. Es posible que desee ver cuántos servidores aún se están ejecutando Apache 2.4.1 y la distribución entre países. Para encontrar la respuesta, podemos buscar apache 2.4.1, que devolverá la lista de servidores con la cadena “apache 2.4.1” en sus encabezados.
+!(../img/shodan.png)
