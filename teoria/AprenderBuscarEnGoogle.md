@@ -66,3 +66,35 @@ La siguiente captura de pantalla muestra el resultado de verificar el archivo en
 ### Have I Been Pwned
 Have I Been Pwned (HIBP) does one thing; it tells you if an email address has appeared in a leaked data breach. Finding one’s email within leaked data indicates leaked private information and, more importantly, passwords. Many users use the same password across multiple platforms, if one platform is breached, their password on other platforms is also exposed. Indeed, passwords are usually stored in encrypted format; however, many passwords are not that complex and can be recovered using a variety of attacks.
 ![](../img/ihave.png)
+
+
+## Explotaciones y vulnerabilidades
+
+En el mundo de la ciberseguridad, es fundamental conocer y utilizar herramientas que permitan identificar vulnerabilidades, encontrar pruebas de concepto (PoCs) y acceder a exploits conocidos. Tres de las herramientas y plataformas más importantes en este ámbito son CVE, Exploit Database y GitHub.
+
+Estas herramientas permiten a investigadores, pentesters y profesionales de seguridad mantenerse actualizados, compartir hallazgos, y desarrollar pruebas prácticas para evaluar sistemas.
+
+A continuación, se presenta una descripción de cada una:
+
+### CVE (Common Vulnerabilities and Exposures)
+El sistema CVE proporciona un identificador único a cada vulnerabilidad descubierta, permitiendo a toda la comunidad hablar el mismo idioma al referirse a fallas de seguridad. Cada CVE contiene una descripción breve y enlaces a más detalles técnicos o parches.
+
+📌 Ejemplo: CVE-2023-23397 — Vulnerabilidad crítica en Microsoft Outlook.
+
+### Exploit Database (Exploit-DB)
+Exploit-DB es una base de datos que recopila exploits públicos, es decir, código o técnicas que aprovechan vulnerabilidades. Es utilizada por pentesters para pruebas de intrusión controladas, aprendizaje y demostraciones de seguridad.
+
+📌 Importante: Todos los exploits disponibles deben ser usados con responsabilidad y fines éticos.
+
+### GitHub
+GitHub es la plataforma más popular para el desarrollo colaborativo de software. En ciberseguridad, es común encontrar repositorios con:
+
+Herramientas de hacking ético.
+
+Scripts de automatización.
+
+Pruebas de concepto (PoCs) de CVEs.
+
+Proyectos completos para auditorías de seguridad.
+
+GitHub es el lugar ideal para aprender de la comunidad y compartir tus propios desarrollos.
